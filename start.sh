@@ -46,4 +46,6 @@ if ! node bin/storage-cli.js get global/users > /dev/null 2>&1; then
 fi
 unset ADMIN_PASSWORD
 
-exec node lib/main.js --foreground --echo --color 0
+# Console (Railway logs): debug and error lines only. Storage transactions
+# still go to Cronicle's own log files in /opt/cronicle/logs.
+exec node lib/main.js --foreground --echo "debug error" --color 0
