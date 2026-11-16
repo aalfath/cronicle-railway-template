@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/cronicle?utm_medium=integration&utm_source=button&utm_campaign=cronicle)
+
 # Cronicle on Railway
 
 This repo packages [Cronicle](https://github.com/jhuckaby/Cronicle), a task scheduler and runner with a web UI, as a Railway template. Railway builds the service straight from this repo.
