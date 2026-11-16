@@ -26,6 +26,5 @@ RUN chmod +x /usr/local/bin/cronicle-start
 
 ENV PORT=3012
 EXPOSE 3012
-VOLUME ["/opt/cronicle/data"]
 
 CMD ["/usr/local/bin/cronicle-start"]
